@@ -1,0 +1,26 @@
+{
+    "name": "thiagoimparato/notification",
+    "description": "This is a library that users composer as the basis for generating email notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thiago de Souza Imparato",
+            "email": "thiagodesouzaimparato@gmail.com",
+            "homepage": "https://imparatotecnologia.com.br",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.4.1"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+    }
+}
